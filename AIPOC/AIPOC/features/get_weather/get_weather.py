@@ -1,5 +1,5 @@
 import requests
-
+#get weather api
 def get_weather(query):
     url = "https://flaskapp955.herokuapp.com/"+str(query)
 

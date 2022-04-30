@@ -3,7 +3,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 import pyautogui
-
+#for facebook
 opt = Options()
 opt.add_argument("--disable-infobars")
 opt.add_argument("start-maximized")

@@ -1,3 +1,4 @@
+#stop words
 def remove_words(query):
     stopwords = ['what','is','the','weather','of','tell','me','how','about','today','tomorrow','temperature']
     querywords = query.split()

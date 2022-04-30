@@ -3,7 +3,7 @@ import vlc
 from time import sleep
 import pafy 
 from search_youtube.search_youtube import search
-
+#for playing video
 with open('AIPOC/AIPOC/features/play_music/audio_query.txt','r') as fb:
         query=fb.readline()
 url = search(str(query))

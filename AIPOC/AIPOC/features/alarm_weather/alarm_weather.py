@@ -36,5 +36,5 @@ def alarm():
             playsound('1.mp3')
             sleep(120)
         sleep(30)
-set_alarm("11:6")
-alarm()
+# set_alarm("11:6")
+# alarm()

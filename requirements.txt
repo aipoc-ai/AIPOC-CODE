@@ -12,5 +12,6 @@ youtube-dl
 libvlc.dll
 pygame
 pyttsx3
+tensoflow
 ibm-watson>=5.3.0
 ##FLAC for os

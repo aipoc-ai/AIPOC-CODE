@@ -1,6 +1,6 @@
 import RPi.GPIO as GPIO
 import time
-
+#this is for second servo moter
 servoPIN = 20
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(servoPIN, GPIO.OUT)

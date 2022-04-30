@@ -1,4 +1,5 @@
 import cv2
+#for capturing photo
 def capture():
     cam = cv2.VideoCapture(0)
 

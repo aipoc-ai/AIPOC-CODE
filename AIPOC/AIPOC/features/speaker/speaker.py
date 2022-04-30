@@ -7,6 +7,8 @@ import pyttsx3
 from ibm_watson import TextToSpeechV1
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
+#speaking
+
 def watsonspeak(text):
     authenticator = IAMAuthenticator('_ICF9BgFjuLYx6GSx7luNeeVUYy2ChzF65lNiHdT_1cK')
     text_to_speech = TextToSpeechV1(
@@ -22,14 +24,14 @@ def watsonspeak(text):
                 voice='en-US_MichaelV3Voice',
                 accept='audio/wav'        
             ).get_result().content)
+    print("hii")
     pygame.mixer.init()
     pygame.mixer.music.load("hello_.wav")
     pygame.mixer.music.play()
-    while pygame.mixer.music.get_busy() == True:
-        continue
+
 
 def speak(text):
-    txt = gTTS(text = text)
+    txt = gTTS(text = text,lang='en', tld='com.au')
     file_name = "voice.mp3"
     txt.save(file_name)
 
@@ -66,4 +68,4 @@ def command():
             speak("sorry sir ,i dont understand that can you speak it again")
     return query
 
-
+speak2("Hello how are you?")

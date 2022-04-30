@@ -1,6 +1,6 @@
 import RPi.GPIO as GPIO          
 from time import sleep
-
+#for movement
 in1 = 25
 in2 = 14
 in3=  22

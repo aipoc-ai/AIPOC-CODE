@@ -80,6 +80,7 @@ class PorcupineDemo(Thread):
         recorder = None
         try:
             porcupine = pvporcupine.create(
+                access_key='lAXBISs4DTkDB3PVZUH+cv97vmulxw+7bk/MAEStBG/2bSWXjArWeQ==',
                 library_path=self._library_path,
                 model_path=self._model_path,
                 keyword_paths=self._keyword_paths,

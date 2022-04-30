@@ -1,6 +1,6 @@
 import smtplib, ssl
 from main_program import speak,command
-
+#for sending mail
 def mail():
     speak("Whom do you want to mail?")
     while True:
